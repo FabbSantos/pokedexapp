@@ -1,8 +1,52 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::root {
+  --primary__orange: #E95B1E;
+  --secondary__orange: rgba(233, 104, 48, .88);
+
+  --grass: #74CB48;
+  --fire: #F57D31;
+  --water: #6493EB;
+  --bug: #A7B723;
+  --dark: #75574C;
+  --dragon: #7037FF;
+  --electric: #F9CF30;
+  --fairy: #E69EAC;
+  --fighting: #C12239;
+  --flying: #A891EC;
+  --flying: #A891EC;
+  --ghost: #70559B;
+  --normal: #AAA67F;
+  --ground: #DEC16B;
+  --ice: #9AD6DF;
+  --poison: #A43E9E;
+  --psychic: #FB5584;
+  --rock: #B69E31;
+  --steel: #B7B9D0;
+}
+
+*, 
+*:after,
+*:before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Urbanist", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
