@@ -1,10 +1,13 @@
 import React from 'react';
+import Pokeball from './Pokeball';
+import ListContainer from './ListContainer';
 
 function App() {
   return (
-  <div>
-    ~hello poke
-  </div>
+    <main className='relative w-full min-h-screen '>
+      <Pokeball/>
+      <ListContainer/>
+    </main>
   );
 }
 

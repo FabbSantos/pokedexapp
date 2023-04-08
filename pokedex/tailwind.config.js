@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.{js,jsx,ts,tsx, css}",],
   theme: {
     extend: {
-        content: [
-        "./src/**/*.{js,jsx,ts,tsx}",
-      ],
+      backgroundImage: {
+        'bg': "url('/src/img/bg.png')"
+      }
     },
   },
   plugins: [],
