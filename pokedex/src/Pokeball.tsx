@@ -10,8 +10,6 @@ function Pokeball () {
         </div>
     )
     
-
-
 }
 
 export default Pokeball;

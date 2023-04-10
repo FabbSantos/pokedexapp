@@ -67,3 +67,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.scrollbar::-webkit-scrollbar { width: 0 !important; }
+
+.scrollbar{
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
